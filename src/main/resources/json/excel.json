@@ -1,0 +1,91 @@
+[
+  {
+    "ImportedFile":
+    [
+      {
+        "excelHeader": "NIT Proveedor",
+        "excelIndex": 0,
+        "excelColType": "String",
+        "excelValue": null,
+        "pojoAttribute": "nit"
+      },
+      {
+        "excelHeader": "Numero de Factura",
+        "excelIndex": 1,
+        "excelColType": "String",
+        "excelValue": null,
+        "pojoAttribute": "invoiceNumber"
+      },
+      {
+        "excelHeader": "Fecha Factura",
+        "excelIndex": 2,
+        "excelColType": "Date",
+        "excelValue": null,
+        "pojoAttribute": "invoiceDate"
+      },
+      {
+        "excelHeader": "Tipo Transaccion",
+        "excelIndex": 3,
+        "excelColType": "String",
+        "excelValue": null,
+        "pojoAttribute": "transactionType"
+      },
+      {
+        "excelHeader": "IUM-Primer nivel",
+        "excelIndex": 4,
+        "excelColType": "String",
+        "excelValue": null,
+        "pojoAttribute": "firstIum"
+      },
+      {
+        "excelHeader": "IUM-Segundo nivel",
+        "excelIndex": 5,
+        "excelColType": "String",
+        "excelValue": null,
+        "pojoAttribute": "secondIum"
+      },
+      {
+        "excelHeader": "IUM-Tercer nivel",
+        "excelIndex": 6,
+        "excelColType": "String",
+        "excelValue": null,
+        "pojoAttribute": "thirdIum"
+      },
+      {
+        "excelHeader": "Número de expediente",
+        "excelIndex": 7,
+        "excelColType": "String",
+        "excelValue": null,
+        "pojoAttribute": "expedient"
+      },
+      {
+        "excelHeader": "Número consecutivo",
+        "excelIndex": 8,
+        "excelColType": "Integer",
+        "excelValue": null,
+        "pojoAttribute": "consecutive"
+      },
+      {
+        "excelHeader": "Unidad de Facturacion",
+        "excelIndex": 9,
+        "excelColType": "String",
+        "excelValue": null,
+        "pojoAttribute": "unitInvoice"
+      },
+      {
+        "excelHeader": "Valor unitario",
+        "excelIndex": 10,
+        "excelColType": "Double",
+        "excelValue": null,
+        "pojoAttribute": "unitValue"
+      },
+      {
+        "excelHeader": "Cantidad",
+        "excelIndex": 11,
+        "excelColType": "Double",
+        "excelValue": null,
+        "pojoAttribute": "amount"
+      }
+    ]
+  }
+]

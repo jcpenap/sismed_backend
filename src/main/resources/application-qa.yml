@@ -1,0 +1,53 @@
+server:
+  servlet:
+    context-path: /sismed
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: admin
+
+  flyway:
+    locations: classpath:/db/migration/postgres
+    baseline-on-migrate: true
+    default-schema: sismed
+    schemas: sismed
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    open-in-view: false
+    properties:
+      hibernate:
+        show_sql: false
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        default_schema: sismed
+
+  servlet:
+    multipart:
+      max-request-size: 10MB
+      max-file-size: 1MB
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: sismedtest@gmail.com
+    password: Asdf1234!
+    properties:
+      mail:
+        smtp:
+          auth: true
+          connectiontimeout: 5000
+          timeout: 5000
+          writetimeout: 5000
+          starttls:
+            enable: true
+
+backend:
+  app:
+    jwt:
+      secret: 7d344a9c-52c9-4440-9151-87b1af33170c
+      tokenExpirationTime: 86400000
+
